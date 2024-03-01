@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.man{
+    margin:10px 30%;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    border: 0.2px solid black;
+    height: 80vh;
+    padding-top: 50px;
+    
+}
+.man:hover{
+    box-shadow: 0px  0px 10px;
+    transition:  700ms ease-in-out;
+}
+.google{
+    width: 300px;
+    border: 0.5px solid grey;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.google img {
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.google:hover{
+    box-shadow: 0px  0px 10px coral;
+    transition:  border 700ms ease-in-out ;
+}
+.apple{
+    width: 300px;
+    border: 0.5px solid grey;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.apple img{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.apple:hover{
+    box-shadow: 0px  0px 10px purple;
+    transition:  border 700ms ease-in-out ;
+}
+.or{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    
+}
+.fst{
+    width: 40px;
+    border-bottom: 1px solid black;
+    
+}
+.sec{
+    width: 40px;
+    border-bottom: 1px solid black;
+}
+.user input{
+    width: 300px;
+    border: 0.5px solid grey;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+button{
+    width: 350px;
+    border: 0.5px solid grey;
+    text-align: center;
+    align-items: center;
+    padding: 17px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+.forgot{
+    width: 330px;
+    border: 0.5px solid grey;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+}
